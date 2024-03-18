@@ -11,7 +11,12 @@ export const Accordian = () => {
           data.map((dataItem) => (
             <div className="bg-slate-200 flex flex-col items-center justify-center rounded-md shadow-md p-3 m-3">
               <div className="flex font-semibold">{dataItem.name}</div>
-              <span>+</span>
+              <button
+                type="button"
+                className="w-6 h-6 flex justify-center content-center bg-lime-500  hover:bg-lime-400 text-white font-bold rounded-full cursor-pointer"
+              >
+                +
+              </button>
             </div>
           ))
         ) : (
