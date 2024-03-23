@@ -13,7 +13,7 @@ export const Accordian = () => {
       <div>
         {data && data.length > 0 ? (
           data.map((dataItem) => (
-            <div className="bg-yellow-400 flex flex-col items-center justify-center rounded-md shadow-lg shadow-white/20 px-14 py-2 m-3">
+            <div className="bg-yellow-400 flex flex-col items-center justify-center rounded-md shadow-lg shadow-white/20 px-20 py-2 m-3">
               <div className="flex text-slate-900 font-semibold text-xl/8">
                 {dataItem.name}
               </div>

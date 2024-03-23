@@ -20,7 +20,7 @@ const data = [
     birth_year: "112BBY",
   },
   {
-    id: "2",
+    id: "3",
     name: "R2-D2",
     height: "96",
     mass: "32",
