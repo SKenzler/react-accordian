@@ -1,5 +1,6 @@
 const data = [
   {
+    id: "1",
     name: "Luke Skywalker",
     height: "172",
     mass: "77",
@@ -9,6 +10,7 @@ const data = [
     birth_year: "19BBY",
   },
   {
+    id: "2",
     name: "C-3PO",
     height: "167",
     mass: "75",
@@ -18,6 +20,7 @@ const data = [
     birth_year: "112BBY",
   },
   {
+    id: "2",
     name: "R2-D2",
     height: "96",
     mass: "32",
@@ -27,6 +30,7 @@ const data = [
     birth_year: "33BBY",
   },
   {
+    id: "4",
     name: "Darth Vader",
     height: "202",
     mass: "136",
@@ -37,6 +41,7 @@ const data = [
     gender: "male",
   },
   {
+    id: "5",
     name: "Leia Organa",
     height: "150",
     mass: "49",
